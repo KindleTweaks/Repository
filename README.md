@@ -15,6 +15,7 @@ Current packages:
 - KPM
 - Kreate
 - kTerm
+- KUAL (PEKI)
 - KWordle
 - SOX
 - Textadept

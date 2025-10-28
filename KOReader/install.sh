@@ -6,7 +6,7 @@ TMPDIR=/mnt/us/KFPM-Temporary
 mkdir -p "$TMPDIR"
 
 OTA_SERVER="https://ota.koreader.rocks/"
-CHANNEL="nightly"
+CHANNEL="stable"
 
 if [ -f /lib/ld-linux-armhf.so.3 ]; then
   OTA_ZSYNC="koreader-kindlehf-latest-$CHANNEL.zsync"

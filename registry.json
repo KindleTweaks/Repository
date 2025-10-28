@@ -118,5 +118,13 @@
         "author": "Barna",
         "ABI": ["hf"],
         "dependencies": ["kTerm"]
+    },
+    {
+        "name": "KUAL",
+        "uri": "KUAL",
+        "description": "Kindle Unified Application Launcher",
+        "author": "Marek & Penguins",
+        "ABI": ["hf", "sf"],
+        "dependencies": []
     }
 ]
