@@ -17,7 +17,7 @@ mkdir -p /mnt/us/extensions/gambatte-k2
 cp -r "$SUBDIR"/* /mnt/us/extensions/gambatte-k2
 
 # Download Scriptlet
-curl -fSL --progress-bar -o /mnt/us/documents/gambatte-k2.sh https://raw.githubusercontent.com/KindleTweaks/KindleForge/refs/heads/master/KFPM/Registry/GambatteK2/assets/gambatte-k2.sh
+curl -fSL --progress-bar -o /mnt/us/documents/gambatte-k2.sh https://kf.penguins184.xyz/GambatteK2/assets/gambatte-k2.sh
 
 # Cleanup
 rm -rf "$TMPDIR"
