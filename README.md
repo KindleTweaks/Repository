@@ -2,6 +2,8 @@
 
 ## The Official KindleForge Package Repository
 
+Hosted on https://kf.penguins184.xyz/
+
 Current packages:
 
 - GambatteK2 
@@ -21,3 +23,6 @@ Current packages:
 - Textadept
 - Toggle ADs
 
+Credits:
+
+- Dammit Jeff (KOReader, Gambatte-K2, ToggleAds Icons)
