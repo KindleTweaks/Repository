@@ -22,7 +22,8 @@ Current packages:
 - SOX
 - Textadept
 - Toggle ADs
+- UpdateBlock Status
 
 Credits:
 
-- Dammit Jeff (KOReader, Gambatte-K2, ToggleAds Icons)
+- Dammit Jeff (KOReader, Gambatte-K2, ToggleAds, UpdateBlock Icons)

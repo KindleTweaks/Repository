@@ -32,6 +32,14 @@
         "dependencies": ["kTerm"]
     },
     {
+        "name": "UpdateBlock Status",
+        "uri": "UpdateBlockStatus",
+        "description": "Check If OTAs Are Renamed",
+        "author": "Neura, Dammit Jeff",
+        "ABI": ["hf", "sf"],
+        "dependencies": []
+    },
+    {
         "name": "Gambatte-K2",
         "uri": "GambatteK2",
         "description": "Upgraded Gameboy Emulator For Kindle",
