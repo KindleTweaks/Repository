@@ -2,8 +2,8 @@
 
 set -e
 
-rm -rf /mnt/us/documents/knotes/
-rm -rf /var/local/mesquite/knotes/
-rm -f /mnt/us/documents/knotes.sh
+rm -rf /mnt/us/documents/KNotes/
+rm -rf /var/local/mesquite/KNotes/
+rm -f /mnt/us/documents/KNotes.sh
 
 exit 0
