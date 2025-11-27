@@ -13,9 +13,11 @@ Current packages:
 - KAnki
 - KindleCraft
 - KindleFetch
+- KNotes
 - KOReader
 - KPM
 - Kreate
+- KShips
 - kTerm
 - KUAL (PEKI)
 - KWordle

@@ -72,6 +72,22 @@
         "dependencies": []
     },
     {
+        "name": "KNotes",
+        "uri": "KNotes",
+        "description": "A Simple Note-Taking App For Kindle",
+        "author": "Kurizu",
+        "ABI": ["hf", "sf"],
+        "dependencies": []
+    },
+    {
+        "name": "KShips",
+        "uri": "KShips",
+        "description": "Battleship Game For Kindle (WIP)",
+        "author": "LOT_PL",
+        "ABI": ["hf", "sf"],
+        "dependencies": []
+    },
+    {
         "name": "JarLauncher",
         "uri": "JarLauncher",
         "description": "Java Installer and Jar Launcher",
