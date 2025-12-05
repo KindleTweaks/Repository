@@ -4,43 +4,63 @@ set -e
 
 TMPDIR=/mnt/us/KF-Update-Temp
 
-rm -rf "$TMPDIR" # Cleanup Any Previous Temp
+alert() {
+    TITLE="$1"
+    TEXT="$2"
+
+    TITLE_ESC=$(printf '%s' "$TITLE" | sed 's/"/\\"/g')
+    TEXT_ESC=$(printf '%s' "$TEXT" | sed 's/"/\\"/g')
+
+    lipc-set-prop com.lab126.pillow pillowAlert \
+        '{ "clientParams":{ "alertId":"appAlert1", "show":true, "customStrings":['\
+        '{"matchStr":"alertTitle","replaceStr":"'"$TITLE_ESC"'"},'\
+        '{"matchStr":"alertText","replaceStr":"'"$TEXT_ESC"'"}'\
+        '] } }'
+}
+
+# Failsafe
+failsafe() {
+    CODE=$?
+    if [ "$CODE" != 0 ]; then
+        alert "Update Failed!" "Something Went Wrong!\nExit Code: $CODE"
+        sync
+    fi
+}
+trap failsafe EXIT
+
+rm -rf "$TMPDIR"
 mkdir -p "$TMPDIR"
 
-eips 1 25 "Updating KindleForge, Please Wait..."
+alert "Updating..." "Updating KindleForge, Please Wait..."
 
 # Download + Extract
-curl -L -o "$TMPDIR/KindleForge.zip" https://github.com/KindleTweaks/KindleForge/releases/latest/download/KindleForge.zip
+curl -fSL -o "$TMPDIR/KindleForge.zip" \
+    https://github.com/KindleTweaks/KindleForge/releases/latest/download/KindleForge.zip
+
 unzip -q "$TMPDIR/KindleForge.zip" -d "$TMPDIR"
 
-eips 1 26 "Downloaded + Extracted"
+alert "Updating..." "Downloaded + Extracted"
 
-# Out With The Old
+# Delete Old Version
 rm -rf /mnt/us/documents/KindleForge
 rm -f /mnt/us/documents/KindleForge.sh
 
-# In With The New
+# Install New Version
 cp -r "$TMPDIR"/* /mnt/us/documents/
 
-eips 1 27 "Update Installed"
+alert "Updating..." "Update Installed Successfully!"
 
-# Just In Case
 sync
 sleep 1
 
-# Cleanup
 rm -rf "$TMPDIR"
 
-# Homescreen, Kill Mesquite
-
+# Go Home
 lipc-set-prop com.lab126.appmgrd start app://com.lab126.booklet.home
-
+sleep 2
+killall mesquite || true
 sleep 2
 
-killall mesquite
-
-sleep 2
-
-eips 1 28 "You May Now Use KindleForge"
+alert "Updating Complete!" "You May Now Use KindleForge."
 
 exit 0
