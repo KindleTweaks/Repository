@@ -11,11 +11,9 @@ alert() {
     TITLE_ESC=$(printf '%s' "$TITLE" | sed 's/"/\\"/g')
     TEXT_ESC=$(printf '%s' "$TEXT" | sed 's/"/\\"/g')
 
-    lipc-set-prop com.lab126.pillow pillowAlert \
-        '{ "clientParams":{ "alertId":"appAlert1", "show":true, "customStrings":['\
-        '{"matchStr":"alertTitle","replaceStr":"'"$TITLE_ESC"'"},'\
-        '{"matchStr":"alertText","replaceStr":"'"$TEXT_ESC"'"}'\
-        '] } }'
+    JSON='{ "clientParams":{ "alertId":"appAlert1", "show":true, "customStrings":[ { "matchStr":"alertTitle", "replaceStr":"'"$TITLE_ESC"'" }, { "matchStr":"alertText", "replaceStr":"'"$TEXT_ESC"'" } ] } }'
+
+    lipc-set-prop com.lab126.pillow pillowAlert "$JSON"
 }
 
 # Failsafe
