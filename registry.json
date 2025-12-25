@@ -120,6 +120,14 @@
         "dependencies": []
     },
     {
+        "name": "KinAMP",
+        "uri": "KinAMP",
+        "description": "An Advanced GUI Audio Player For Kindle",
+        "author": "Barna", 
+        "ABI": ["hf", "sf"],
+        "dependencies": []
+    },
+    {
         "name": "KindleCraft",
         "uri": "KindleCraft",
         "description": "A Basic Minecraft Server (1.21.8)",
