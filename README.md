@@ -4,13 +4,14 @@
 
 *Hosted on https://kf.penguins184.xyz/*
 
-Current packages:
+Current packages (20):
 
 - GambatteK2 
 - Gargoyle
 - GNOME Games Suite
 - JarLauncher
 - KAnki
+- KinAMP
 - KindleCraft
 - KindleFetch
 - KNotes
