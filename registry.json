@@ -124,7 +124,7 @@
         "uri": "KinAMP",
         "description": "An Advanced GUI Audio Player For Kindle",
         "author": "Barna", 
-        "ABI": ["hf", "sf"],
+        "ABI": ["hf"],
         "dependencies": []
     },
     {
