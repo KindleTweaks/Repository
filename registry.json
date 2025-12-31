@@ -92,7 +92,7 @@
     {
         "name": "KShips",
         "uri": "KShips",
-        "description": "Battleship Game For Kindle (WIP)",
+        "description": "Battleship Game For Kindle",
         "author": "LOT_PL",
         "ABI": ["hf", "sf"],
         "dependencies": [],

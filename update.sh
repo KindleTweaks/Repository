@@ -37,16 +37,12 @@ curl -fSL -o "$TMPDIR/KindleForge.zip" \
 
 unzip -q "$TMPDIR/KindleForge.zip" -d "$TMPDIR"
 
-alert "Updating..." "Downloaded + Extracted"
-
 # Delete Old Version
 rm -rf /mnt/us/documents/KindleForge
 rm -f /mnt/us/documents/KindleForge.sh
 
 # Install New Version
 cp -r "$TMPDIR"/* /mnt/us/documents/
-
-alert "Updating..." "Update Installed Successfully!"
 
 sync
 sleep 1
