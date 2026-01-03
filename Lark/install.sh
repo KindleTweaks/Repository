@@ -2,7 +2,7 @@
 
 set -e
 
-TMPDIR=/mnt/us/LARKPlayer-Temporary
+TMPDIR=/mnt/us/KFPM-Temporary
 ZIPNAME=lark.zip
 
 mkdir -p "$TMPDIR"
@@ -15,7 +15,7 @@ curl -fSL --progress-bar \
 # Extract directly to /mnt/us
 unzip -oq "$TMPDIR/$ZIPNAME" -d /mnt/us/
 
-# Cleanup
+# Cleanup (normal durumda)
 rm -rf "$TMPDIR"
 
 exit 0
