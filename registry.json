@@ -179,7 +179,6 @@
         "dependencies": [],
         "tags": ["UTILITY"]
     },
-    
         "name": "LARKPlayer",
         "uri": "LARK",
         "description": "LARK is a M4B audiobook reader for Kindles",
