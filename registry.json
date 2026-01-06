@@ -144,6 +144,15 @@
         "tags": ["MEDIA"]
     },
     {
+        "name": "LARKPlayer",
+        "uri": "LARKPlayer",
+        "description": "LARK Is a M4B Audiobook Reader for Kindles",
+        "author": "Barna",
+        "ABI": ["hf"],
+        "dependencies": [],
+        "tags": ["MEDIA"]
+    },
+    {
         "name": "KindleCraft",
         "uri": "KindleCraft",
         "description": "A Basic Minecraft Server (1.21.8)",
@@ -178,13 +187,5 @@
         "ABI": ["hf", "sf"],
         "dependencies": [],
         "tags": ["UTILITY"]
-    }, {
-        "name": "LARKPlayer",
-        "uri": "LARKPlayer",
-        "description": "LARK Is a M4B Audiobook Reader for Kindles",
-        "author": "Barna",
-        "ABI": ["hf"],
-        "dependencies": [],
-        "tags": ["MEDIA"]
     }
 ]
