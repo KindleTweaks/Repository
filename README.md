@@ -26,6 +26,7 @@ Current packages (20):
 - Textadept
 - Toggle ADs
 - UpdateBlock Status
+- LARKPlayer
 
 Credits:
 
