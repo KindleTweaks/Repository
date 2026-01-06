@@ -178,11 +178,11 @@
         "ABI": ["hf", "sf"],
         "dependencies": [],
         "tags": ["UTILITY"]
-    },
+    }, {
         "name": "LARKPlayer",
-        "uri": "LARK",
-        "description": "LARK is a M4B audiobook reader for Kindles",
-        "author": "kbarni",
+        "uri": "LARKPlayer",
+        "description": "LARK Is a M4B Audiobook Reader for Kindles",
+        "author": "Barna",
         "ABI": ["hf"],
         "dependencies": [],
         "tags": ["MEDIA"]
