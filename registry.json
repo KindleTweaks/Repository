@@ -8,6 +8,15 @@
         "dependencies": [],
         "tags": ["UTILITY"]
     },
+        {
+        "name": "Alpine Linux",
+        "uri": "AlpineLinux",
+        "description": "Alpine Linux ported to kindle",
+        "author": "Simon Schumann",
+        "ABI": ["hf", "sf"],
+        "dependencies": [],
+        "tags": ["UTILITY", "DEVELOPMENT"]
+    },
     {
         "name": "KOReader",
         "uri": "KOReader",
