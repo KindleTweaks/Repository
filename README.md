@@ -4,7 +4,7 @@
 
 *Hosted on https://kf.penguins184.xyz/*
 
-Current packages (20):
+Current packages (21):
 
 - GambatteK2 
 - Gargoyle
@@ -27,7 +27,10 @@ Current packages (20):
 - Toggle ADs
 - UpdateBlock Status
 - LARKPlayer
+- Alpine Linux
 
 Credits:
 
 - Dammit Jeff (KOReader, Gambatte-K2, ToggleAds, UpdateBlock Icons)
+
+- GreenCat777 (Alpine Linux install.sh, uninstall.sh)
