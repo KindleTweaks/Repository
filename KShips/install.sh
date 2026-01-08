@@ -6,7 +6,7 @@ TMPDIR=/mnt/us/KFPM-Temporary
 mkdir -p "$TMPDIR"
 
 # Download + Extract
-curl -fSL --progress-bar -o "$TMPDIR/KShips.zip" https://github.com/LOT-PL/KShips/releases/latest/download/KShips.zip
+curl -fSL --progress-bar -o "$TMPDIR/KShips.zip" https://github.com/LOT-Projects/KShips/releases/latest/download/KShips.zip
 unzip -q "$TMPDIR/KShips.zip" -d "$TMPDIR"
 
 # Copy Contents
