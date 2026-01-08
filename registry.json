@@ -8,15 +8,6 @@
         "dependencies": [],
         "tags": ["UTILITY"]
     },
-        {
-        "name": "Alpine Linux",
-        "uri": "AlpineLinux",
-        "description": "Alpine Linux ported to kindle",
-        "author": "Simon Schumann",
-        "ABI": ["hf", "sf"],
-        "dependencies": [],
-        "tags": ["UTILITY", "DEVELOPMENT"]
-    },
     {
         "name": "KOReader",
         "uri": "KOReader",
@@ -54,6 +45,14 @@
         "tags": ["UTILITY"]
     },
     {
+       "name": "Alpine Linux",
+       "uri": "AlpineLinux",
+       "description": "Alpine Linux ported to kindle",
+       "author": "Simon Schumann",
+       "ABI": ["hf", "sf"],
+       "dependencies": [],
+       "tags": ["UTILITY", "DEVELOPMENT"]
+},
         "name": "Gambatte-K2",
         "uri": "GambatteK2",
         "description": "Upgraded Gameboy Emulator For Kindle",
