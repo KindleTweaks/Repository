@@ -52,8 +52,8 @@
        "ABI": ["hf", "sf"],
        "dependencies": [],
        "tags": ["UTILITY", "DEVELOPMENT"]
-},
-        "name": "Gambatte-K2",
+    },
+    {    "name": "Gambatte-K2",
         "uri": "GambatteK2",
         "description": "Upgraded Gameboy Emulator For Kindle",
         "author": "CrazyElectron",
