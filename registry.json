@@ -195,5 +195,14 @@
         "ABI": ["hf", "sf"],
         "dependencies": [],
         "tags": ["UTILITY"]
+    },
+        {
+        "name": "Disable OTA Binaries",
+        "uri": "renameotabin",
+        "description": "If installed, OTA is disabled",
+        "author": "Marek",
+        "ABI": ["hf", "sf"],
+        "dependencies": [],
+        "tags": ["UTILITY"]
     }
 ]
