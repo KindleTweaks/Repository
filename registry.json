@@ -9,6 +9,15 @@
         "tags": ["UTILITY"]
     },
     {
+        "name": "HotfixUpdater",
+        "uri": "HotfixUpdater",
+        "description": "Update Your Hotfix Right On Your Kindle",
+        "author": "Penguins & MonkeyInPrivite",
+        "ABI": ["hf", "sf"],
+        "dependencies": [],
+        "tags": ["UTILITY"]
+    },
+    {
         "name": "KOReader",
         "uri": "KOReader",
         "description": "An E-Book Reader Application",
