@@ -18,6 +18,7 @@ Current packages (22):
 - KNotes
 - KOReader
 - KPM
+- KPomo
 - Kreate
 - KShips
 - kTerm
