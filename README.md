@@ -15,6 +15,7 @@ Current packages (22):
 - KinAMP
 - KindleCraft
 - KindleFetch
+- Kindle Series Manager
 - KNotes
 - KOReader
 - KPM
