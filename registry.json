@@ -231,5 +231,14 @@
         "ABI": ["hf", "sf"],
         "dependencies": [],
         "tags": ["UTILITY"]
+    },
+    {
+        "name": "Kindle Series Manager",
+        "uri": "KindleSeriesManager",
+        "description": "Group sideloaded books into series, custom screensavers, Goodreads sync, wireless book uploads",
+        "author": "mlapaglia",
+        "ABI": ["hf", "sf"],
+        "dependencies": ["KUAL"],
+        "tags": ["UTILITY", "PRODUCTIVITY"]
     }
 ]
