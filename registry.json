@@ -27,6 +27,15 @@
         "tags": ["MEDIA", "PRODUCTIVITY"]
     },
     {
+        "name": "KOReader + Zen UI",
+        "uri": "ZenKOReader",
+        "description": "An E-Book Reader Application + a clean and minimal interface",
+        "author": "Hans-Werner & Anthony Gress",
+        "ABI": ["hf", "sf"],
+        "dependencies": [],
+        "tags": ["MEDIA", "PRODUCTIVITY"]
+    },
+    {
         "name": "kTerm",
         "uri": "kTerm",
         "description": "GTK+ Terminal Emulator for Kindle",
