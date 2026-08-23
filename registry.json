@@ -249,5 +249,14 @@
         "ABI": ["hf", "sf"],
         "dependencies": [],
         "tags": ["UTILITY"]
+    },
+    {
+        "name": "Qur'an",
+        "uri": "Quran",
+        "description": "Read The Quran In Arabic And English, Offline",
+        "author": "alfajrd",
+        "ABI": ["hf", "sf"],
+        "dependencies": ["KOReader"],
+        "tags": ["MEDIA"]
     }
 ]
